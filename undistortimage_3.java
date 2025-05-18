@@ -17,7 +17,8 @@ import java.util.ArrayList;
 // new OpenCV imports
 import org.opencv.aruco.Dictionary;
 import org.opencv.aruco.Aruco;
-
+import org.opencv.calib3d.Calib3d;
+import org.opencv.core.CvType;
 /**
  * Class meant to handle commands from the Ground Data System and execute them in Astrobee.
  */

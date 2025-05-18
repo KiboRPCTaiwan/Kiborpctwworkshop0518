@@ -120,6 +120,7 @@ public class YourService extends KiboRpcService {
                 e.printStackTrace();
             }
         }
+        
 
         // Visit each area
         for (int areaId = 0; areaId < AREA_POINTS.length; areaId++) {
